@@ -1,0 +1,44 @@
+.film-row {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f6f6f6;
+    border: 1px solid #000000;
+}
+
+.film-row__content {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.film-row__poster {
+    width: 160px;
+    flex-grow: 0;
+}
+
+.film-row__poster img {
+    max-width: 100%;
+    margin: 0;
+}
+
+.film-row__info {
+    flex-grow: 1;
+    padding-left: 20px;
+    position: relative;
+}
+.film-row__title {
+    text-decoration: none;
+    padding-bottom: 10px;
+    font-size: 24px;
+}
+
+.film-row__text {
+    margin-top: 10px;
+    font-size: 16px;
+}
+.film-row__text b {
+    display: inline-block;
+    width: 60px;
+}
