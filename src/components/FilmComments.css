@@ -47,6 +47,7 @@
     margin-bottom: 5px;
     flex-grow: 0;
     font-weight: bold;
+    text-align: right;
 }
 .film-comments__user::after {
     content: ':';

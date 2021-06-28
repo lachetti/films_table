@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+
+  films-table-prod:
+    container_name: films-table-prod
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    ports:
+      - '1337:80'
