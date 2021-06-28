@@ -9,6 +9,7 @@ const FilmsTable = (props) => {
         {
             movies.map((movie) =>
                 <FilmRow 
+                    key={movie.id} 
                     id={movie.id} 
                     url={movie.url} 
                     imgUrl={movie.medium_cover_image} 
